@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<script>
+    <story path="http://automationpractice.com/index.php" >
+        <dialog>
+            <command>click</command>
+            <target>title</target>
+            <value>Log in to your customer account</value>
+            <tag>a</tag>
+            <validation>
+               <command>click</command>
+               <target>title</target>
+               <value>Log in to your customer account</value>
+               <tag>a</tag>
+            </validation>
+        </dialog>
+        <dialog>
+            <command>getText</command>
+            <target>class</target>
+            <value>page-heading</value>
+            <tag>h1</tag>
+            <validation>
+               <target>title</target>
+               <value>Log in to your customer account</value>
+               <tag>a</tag>
+            </validation>
+        </dialog>
+    </story>
+</script>
