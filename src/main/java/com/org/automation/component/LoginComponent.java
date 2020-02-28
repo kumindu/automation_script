@@ -15,14 +15,15 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 package com.org.automation.component;
-import org.openqa.selenium.*;
-import com.org.automation.util.WebDrivers;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
 public class LoginComponent {
 
     private WebDriver driver;
-    private String currentUrl;
+    public String currentUrl;
     private WebElement buttonLogin;
     private WebElement errorMessage;
     private WebElement inputUsername;
@@ -79,8 +80,6 @@ public class LoginComponent {
     public String getButtonText(){
         return buttonLogin.getText();
     }
-
-
 
     public String getInputUsername(){
         return inputUsername.getText();

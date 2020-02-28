@@ -7,12 +7,22 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
         <option value="Class" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectId" id="1XhbNW0LEVpyXyy2bk9vZ1t8ls5" />
@@ -35,20 +45,7 @@
       <recent name="com.org.automation" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestCaseMain">
-    <configuration name="TestCaseLoginController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.org.automation.TestCaseLoginController" />
-      <module name="automation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.org.automation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.AutomationJUnitTest.CreateTokenCorrect">
     <configuration name="TestCaseMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.org.automation.TestCaseMain" />
       <module name="automation" />
@@ -62,10 +59,76 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AutomationJUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.com.test" />
+      <option name="MAIN_CLASS_NAME" value="org.com.test.AutomationJUnitTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AutomationJUnitTest.CreateTokenCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.com.test" />
+      <option name="MAIN_CLASS_NAME" value="org.com.test.AutomationJUnitTest" />
+      <option name="METHOD_NAME" value="CreateTokenCorrect" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AutomationJUnitTest.CreateTokenWithOutName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.com.test" />
+      <option name="MAIN_CLASS_NAME" value="org.com.test.AutomationJUnitTest" />
+      <option name="METHOD_NAME" value="CreateTokenWithOutName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AutomationJUnitTest.loginTestCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.com.test" />
+      <option name="MAIN_CLASS_NAME" value="org.com.test.AutomationJUnitTest" />
+      <option name="METHOD_NAME" value="loginTestCase" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AutomationJUnitTest.CreateTokenCorrect" />
+        <item itemvalue="JUnit.AutomationJUnitTest" />
+        <item itemvalue="JUnit.AutomationJUnitTest.CreateTokenWithOutName" />
+        <item itemvalue="JUnit.AutomationJUnitTest.loginTestCase" />
         <item itemvalue="Application.TestCaseMain" />
-        <item itemvalue="Application.TestCaseLoginController" />
       </list>
     </recent_temporary>
   </component>
@@ -99,33 +162,37 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="460" y="105" key="FileChooserDialogImpl/0.0.1360.728@0.0.1360.728" timestamp="1581501325920" />
-    <state width="1317" height="179" key="GridCell.Tab.0.bottom" timestamp="1582350888007">
+    <state width="1317" height="370" key="GridCell.Tab.0.bottom" timestamp="1582853015520">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="179" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1582350888007" />
-    <state width="1317" height="179" key="GridCell.Tab.0.center" timestamp="1582350888007">
+    <state width="1317" height="370" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1582853015520" />
+    <state width="1317" height="370" key="GridCell.Tab.0.center" timestamp="1582853015520">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="179" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1582350888007" />
-    <state width="1317" height="179" key="GridCell.Tab.0.left" timestamp="1582350888007">
+    <state width="1317" height="370" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1582853015520" />
+    <state width="1317" height="370" key="GridCell.Tab.0.left" timestamp="1582853015520">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="179" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1582350888007" />
-    <state width="1317" height="179" key="GridCell.Tab.0.right" timestamp="1582350888007">
+    <state width="1317" height="370" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1582853015520" />
+    <state width="1317" height="370" key="GridCell.Tab.0.right" timestamp="1582853015520">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="179" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1582350888007" />
+    <state width="1317" height="370" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1582853015520" />
     <state x="500" y="146" key="chooseDestDirectoryDialog" timestamp="1581510239934">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="500" y="146" key="chooseDestDirectoryDialog/0.0.1360.728@0.0.1360.728" timestamp="1581510239934" />
-    <state x="381" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1582350584239">
+    <state x="381" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1582838322267">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="381" y="188" key="com.intellij.ide.util.TipDialog/0.0.1360.728@0.0.1360.728" timestamp="1582350584239" />
+    <state x="381" y="188" key="com.intellij.ide.util.TipDialog/0.0.1360.728@0.0.1360.728" timestamp="1582838322267" />
     <state x="336" y="162" key="run.anything.popup" timestamp="1581510929724">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="336" y="162" key="run.anything.popup/0.0.1360.728@0.0.1360.728" timestamp="1581510929724" />
+    <state x="343" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1582841207204">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="343" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1360.728@0.0.1360.728" timestamp="1582841207204" />
   </component>
 </project>

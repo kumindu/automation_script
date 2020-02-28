@@ -15,14 +15,14 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 package com.org.automation.component;
-import org.openqa.selenium.*;
-import com.org.automation.util.WebDrivers;
-import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 public class RegisterComponent {
 
     private WebDriver driver;
-    private String currentUrl;
+	public String currentUrl;
     private WebElement inputName;
     private WebElement buttonLogin;
     private WebElement errorMessage;
@@ -97,6 +97,14 @@ public class RegisterComponent {
         this.inputUsername.sendKeys(username);
     }
 
+	public String getNameValidate(){
+		return inputUsername.getAttribute("validationMessage");
+	}
+
+	public String getConfirmValidate(){
+		return inputPassword.getAttribute("validationMessage");
+	}
+
     public String getEmailValidate(){
         return inputUsername.getAttribute("validationMessage");
     }
@@ -104,6 +112,7 @@ public class RegisterComponent {
     public String getPasswordValidate(){
         return inputPassword.getAttribute("validationMessage");
     }
+
 
     public void setInputConfirmPassword(String ConfirmPassword){
         this.inputConfirmPassword.sendKeys(ConfirmPassword);
