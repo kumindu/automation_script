@@ -24,20 +24,19 @@ public class TokenComponent {
         super();
         this.driver             = driver;
         this.currentUrl         = this.Navigation();
+		this.createNewToken     = driver.findElement(By.id("createToken"));
+		this.createnewclient    = driver.findElement(By.id("createClient"));
+		this.createclientbtn    = driver.findElement(By.id("createTokenBtn"));
         this.createtokenname    = driver.findElement(By.id("create-token-name"));
         this.createclientname   = driver.findElement(By.id("create-client-name"));
-        this.createclientbtn    = driver.findElement(By.className("btn-primary"));
-        this.createNewToken     = driver.findElement(By.linkText("Create New Token"));
-        this.createnewclient    = driver.findElement(By.linkText("Create New Client"));
-        this.accesstokenbtn     = driver.findElement(By.cssSelector("#modal-access-token .btn-primary"));
-        this.createclientbtn    = driver.findElement(By.cssSelector("#modal-create-client .btn-primary"));
+        this.accesstokenbtn     = driver.findElement(By.id("createClientTokenBtn"));
 		this.redirect           = driver.findElement(By.xpath("//div[@id='modal-create-client']/div/div/div[2]/form/div[2]/div/input"));
     }
 
 
 
     public String Navigation() {
-        driver.get("http://54.219.186.201/home");
+        driver.get("https://automation.openwit.club/home");
         return driver.getCurrentUrl();
     }
 

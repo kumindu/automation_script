@@ -47,7 +47,7 @@ public class LoginComponent {
     }
 
     public String Navigation() {
-        driver.get("http://54.219.186.201/login");
+        driver.get("https://automation.openwit.club/login");
         return driver.getCurrentUrl();
     }
 
