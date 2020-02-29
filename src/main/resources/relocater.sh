@@ -13,7 +13,7 @@ if [ ! -z "$path"]; then
     	 echo 'Current directory '.$path.'/resources/chrome content:'
      	 ls $path/resources/chrome
      	 echo
-       read -p 'Chrome driver is loacted are you need relocating again?[Y/N]' yn
+       read -p 'Chrome driver is loacted are you need relocating again?[Y/N]:' yn
        case $yn in
           [Yy]* ) sudo rm -r $path/resources/chrome;sudo cp chrome $path/resources/;;
           [Nn]* ) ;;
@@ -25,7 +25,7 @@ if [ ! -z "$path"]; then
     	 echo 'Current directory '.$path.'/resources/edge content:'
      	 ls  $path/resources/edge
      	 echo
-       read -p 'Edge driver is loacted are you need relocating again?[Y/N]' yn
+       read -p 'Edge driver is loacted are you need relocating again?[Y/N]:' yn
        case $yn in
           [Yy]* ) sudo rm -r $path/resources/edge;sudo cp edge $path/resources/;;
           [Nn]* ) ;;
@@ -37,7 +37,7 @@ if [ ! -z "$path"]; then
     	 echo 'Current directory '.$path.'/resources/firefox content:'
      	 ls  $path/resources/firefox
      	 echo
-       read -p 'Firefox driver is loacted are you need relocating again?[Y/N]' yn
+       read -p 'Firefox driver is loacted are you need relocating again?[Y/N]:' yn
        case $yn in
           [Yy]* ) sudo rm -r  $path/resources/firefox;sudo cp firefox $path/resources/;;
           [Nn]* ) ;;
@@ -49,7 +49,7 @@ if [ ! -z "$path"]; then
     	 echo 'Current directory '.$path.'/resources/Internet Explora content:'
      	 ls  $path/resources/IE
      	 echo
-       read -p 'Internet Explora driver is loacted are you need relocating again?[Y/N]' yn
+       read -p 'Internet Explora driver is loacted are you need relocating again?[Y/N]:' yn
        case $yn in
           [Yy]* ) sudo rm -r  $path/resources/IE ;sudo cp IE $path/resources/;;
           [Nn]* ) ;;
@@ -62,7 +62,7 @@ if [ ! -z "$path"]; then
     	 echo 'Current directory '.$path.'/resources/opera content:'
      	 ls  $path/resources/opera
      	 echo
-       read -p 'Opera driver is loacted are you need relocating again?[Y/N]' yn
+       read -p 'Opera driver is loacted are you need relocating again?[Y/N]:' yn
        case $yn in
           [Yy]* ) sudo rm -r  $path/resources/opera ;sudo cp opera $path/resources/;;
           [Nn]* ) ;;
@@ -85,7 +85,7 @@ else
     	 echo 'Current directory /opt/resources/chrome content:'
      	 ls /opt/resources/chrome
      	 echo
-       read -p 'Chrome driver is loacted are you need relocating again?[Y/N]' yn
+       read -p 'Chrome driver is loacted are you need relocating again?[Y/N]:' yn
        case $yn in
           [Yy]* ) sudo rm -r /opt/resources/chrome ;sudo cp chrome /opt/resources/;;
           [Nn]* ) ;;
@@ -97,7 +97,7 @@ else
     	 echo 'Current directory /opt/resources/edge content:'
      	 ls /opt/resources/edge
      	 echo
-       read -p 'Edge driver is loacted are you need relocating again?[Y/N]' yn
+       read -p 'Edge driver is loacted are you need relocating again?[Y/N]:' yn
        case $yn in
           [Yy]* ) sudo rm -r /opt/resources/edge ;sudo cp edge /opt/resources/;;
           [Nn]* ) ;;
@@ -109,7 +109,7 @@ else
     	 echo 'Current directory /opt/resources/firefox content:'
      	 ls /opt/resources/firefox
      	 echo
-       read -p 'Firefox driver is loacted are you need relocating again?[Y/N]' yn
+       read -p 'Firefox driver is loacted are you need relocating again?[Y/N]:' yn
        case $yn in
           [Yy]* ) sudo rm -r /opt/resources/firefox ;sudo cp firefox /opt/resources/;;
           [Nn]* ) ;;
@@ -121,20 +121,19 @@ else
     	 echo 'Current directory /opt/resources/IE content:'
      	 ls /opt/resources/IE
      	 echo
-       read -p 'Internet Explora driver is loacted are you need relocating again?[Y/N]' yn
+       read -p 'Internet Explora driver is loacted are you need relocating again?[Y/N]:' yn
        case $yn in
           [Yy]* ) sudo rm -r /opt/resources/IE ;sudo cp IE /opt/resources/;;
           [Nn]* ) ;;
        *)
        esac
-       sudo rm -r /opt/resources/IE
     fi
     if [ -d "/opt/resources/opera"]; then
      	 echo
     	 echo 'Current directory /opt/resources/opera content:'
      	 ls /opt/resources/opera
      	 echo
-       read -p 'Opera driver is loacted are you need relocating again?[Y/N]' yn
+       read -p 'Opera driver is loacted are you need relocating again?[Y/N]:' yn
        case $yn in
           [Yy]* ) sudo rm -r /opt/resources/opera ;sudo cp opera /opt/resources/;;
           [Nn]* ) ;;
@@ -143,7 +142,7 @@ else
     fi
   else
     sudo mkdir /opt/resources
-    sudo cp {chrome,edge,firefox,IE,opera} /opt/resources/
+    sudo cp -R * /opt/resources/
     echo 'Web Driver files are relocated to /opt/resources/'
     echo
     ls $path
