@@ -6,64 +6,64 @@ echo  "@Author Kumindu Induranga Ranawaka             @Relase Date:29/02/18\n"
 echo  "####################################################################\n"
 echo
 read -p 'Enter web driver relocating path (Default:/opt/resources/)[ENTER]:' path
-if [ ! -z "$path" ]; then
-	if [ -e "$path" ]; then
-    if [ -e $path/resources/chrome ]; then
+if [ ! -z $path ]; then
+	if [ -e $path ]; then
+    if [ -e $path.'/resources/chrome' ]; then
     	 echo
     	 echo 'Current directory '.$path.'/resources/chrome content:'
-     	 ls $path/resources/chrome
+     	 ls $path.'/resources/chrome'
      	 echo
        read -p 'Chrome driver is loacted are you need relocating again?[Y/N]:' yn
        case $yn in
-          [Yy]* ) sudo rm -r $path/resources/chrome;sudo cp -R chrome $path/resources/;;
+          [Yy]* ) sudo rm -r $path.'/resources/chrome';sudo cp -R chrome $path.'/resources/';;
           [Nn]* ) ;;
        *)
        esac
     fi
-    if [ -e  "$path"/resources/edge ]; then
+    if [ -e  $path.'/resources/edge' ]; then
     	 echo
     	 echo 'Current directory '.$path.'/resources/edge content:'
-     	 ls  $path/resources/edge
+     	 ls  $path.'/resources/edge'
      	 echo
        read -p 'Edge driver is loacted are you need relocating again?[Y/N]:' yn
        case $yn in
-          [Yy]* ) sudo rm -r $path/resources/edge;sudo cp -R edge $path/resources/;;
+          [Yy]* ) sudo rm -r $path.'/resources/edge';sudo cp -R edge $path.'/resources/';;
           [Nn]* ) ;;
        *)
        esac
     fi
-    if [ -e  "$path"/resources/firefox ]; then
+    if [ -e  $path.'/resources/firefox' ]; then
     	 echo
     	 echo 'Current directory '.$path.'/resources/firefox content:'
-     	 ls  $path/resources/firefox
+     	 ls  $path.'/resources/firefox'
      	 echo
        read -p 'Firefox driver is loacted are you need relocating again?[Y/N]:' yn
        case $yn in
-          [Yy]* ) sudo rm -r  $path/resources/firefox;sudo cp -R firefox $path/resources/;;
+          [Yy]* ) sudo rm -r  $path.'/resources/firefox';sudo cp -R firefox $path.'/resources/';;
           [Nn]* ) ;;
        *)
        esac
     fi
-    if [ -e  "$path"/resources/IE ]; then
+    if [ -e  $path.'/resources/IE' ]; then
     	 echo
     	 echo 'Current directory '.$path.'/resources/Internet Explora content:'
-     	 ls  $path/resources/IE
+     	 ls  $path.'/resources/IE'
      	 echo
        read -p 'Internet Explora driver is loacted are you need relocating again?[Y/N]:' yn
        case $yn in
-          [Yy]* ) sudo rm -r  $path/resources/IE ;sudo cp -R IE $path/resources/;;
+          [Yy]* ) sudo rm -r  $path.'/resources/IE' ;sudo cp -R IE $path.'/resources/';;
           [Nn]* ) ;;
        *)
        esac
     fi
-    if [ -e  "$path"/resources/opera ]; then
+    if [ -e  $path.'/resources/opera' ]; then
     	 echo
     	 echo 'Current directory '.$path.'/resources/opera content:'
-     	 ls  $path/resources/opera
+     	 ls  $path.'/resources/opera'
      	 echo
        read -p 'Opera driver is loacted are you need relocating again?[Y/N]:' yn
        case $yn in
-          [Yy]* ) sudo rm -r  $path/resources/opera ;sudo cp -R opera $path/resources/;;
+          [Yy]* ) sudo rm -r  $path.'/resources/opera' ;sudo cp -R opera $path.'/resources/';;
           [Nn]* ) ;;
        *)
        esac
