@@ -5,9 +5,9 @@ echo  "####################################################################\n"
 echo  "@Author Kumindu Induranga Ranawaka             @Relase Date:29/02/18\n"
 echo  "####################################################################\n"
 echo
-read -n 'Enter web driver relocating path (Default:/opt/resources/)[ENTER]:' path
-if [ ! -z $path ]; then
-	if [ -e $path ]; then
+read -p 'Enter web driver relocating path (Default:/opt/resources/)[ENTER]:' path
+if [ ! -z "$path" ]; then
+	if [ -e "$path" ]; then
     if [ -e $path/resources/chrome ]; then
     	 echo
     	 echo 'Current directory '.$path.'/resources/chrome content:'
@@ -20,7 +20,7 @@ if [ ! -z $path ]; then
        *)
        esac
     fi
-    if [ -e  $path/resources/edge ]; then
+    if [ -e  "$path"/resources/edge ]; then
     	 echo
     	 echo 'Current directory '.$path.'/resources/edge content:'
      	 ls  $path/resources/edge
@@ -32,7 +32,7 @@ if [ ! -z $path ]; then
        *)
        esac
     fi
-    if [ -e  $path/resources/firefox ]; then
+    if [ -e  "$path"/resources/firefox ]; then
     	 echo
     	 echo 'Current directory '.$path.'/resources/firefox content:'
      	 ls  $path/resources/firefox
@@ -44,7 +44,7 @@ if [ ! -z $path ]; then
        *)
        esac
     fi
-    if [ -e  $path/resources/IE ]; then
+    if [ -e  "$path"/resources/IE ]; then
     	 echo
     	 echo 'Current directory '.$path.'/resources/Internet Explora content:'
      	 ls  $path/resources/IE
@@ -55,9 +55,8 @@ if [ ! -z $path ]; then
           [Nn]* ) ;;
        *)
        esac
-       sudo rm -r  $path/resources/IE
     fi
-    if [ -e  $path/resources/opera ]; then
+    if [ -e  "$path"/resources/opera ]; then
     	 echo
     	 echo 'Current directory '.$path.'/resources/opera content:'
      	 ls  $path/resources/opera
