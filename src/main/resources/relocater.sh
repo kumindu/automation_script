@@ -6,8 +6,8 @@ echo  "@Author Kumindu Induranga Ranawaka             @Relase Date:29/02/18\n"
 echo  "####################################################################\n"
 echo
 read -p 'Enter web driver relocating path (Default:/opt/resources/)[ENTER]:' path
-if [ ! -z $path ]; then
-	if [ -d $path ]; then
+if [ ! -z "$path" ]; then
+	if [ -d "$path" ]; then
     if [ -d $path/resources/chrome ]; then
     	 echo
     	 echo 'Current directory '.$path.'/resources/chrome content:'
