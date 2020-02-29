@@ -8,7 +8,7 @@ echo
 read -p 'Enter web driver relocating path (Default:/opt/resources/)[ENTER]:' path
 if[-z "$path"];
 then
-	if[-d $path];
+	if[-d "$path"];
    then
     if[-d "$path/resources/chrome"];
      then
@@ -69,8 +69,7 @@ then
     echo
     echo 'Example java code for application:'
     echo '\t\t\tnew WebDrivers(\"Lnx\","'.$path.'");'
-  fi
-fi
+   fi
 else
   if[-d "/opt/resources/"];
    then
@@ -134,6 +133,8 @@ else
     echo
     echo 'Example java code for application:'
     echo '\t\t\tnew WebDrivers(\"Lnx\",\"//opt//resources//\");'
+  fi
+fi
 echo
 echo  "####################################################################\n"
 echo  "                        WebDrivers Relocted                         \n"
