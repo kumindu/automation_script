@@ -10,7 +10,7 @@ if [ -z $path ]; then
 	if [ -d $path ]; then
     if [ -d $path/chrome ]; then
     	 echo
-    	 echo 'Current directory '.$path.'/resources/chrome content:'
+    	 echo Current directory $path/resources/chrome content:
      	 ls $path/chrome
      	 echo
        read -p 'Chrome driver is loacted are you need relocating again?[Y/N]:' yn
@@ -22,9 +22,9 @@ if [ -z $path ]; then
     else
     	sudo cp -R chrome $path/
     fi
-    if [ -d  $path/resources/edge ]; then
+    if [ -d  $path/edge ]; then
     	 echo
-    	 echo 'Current directory '.$path.'/resources/edge content:'
+    	 echo Current directory $path/resources/edge content:
      	 ls  $path/edge
      	 echo
        read -p 'Edge driver is loacted are you need relocating again?[Y/N]:' yn
@@ -36,10 +36,10 @@ if [ -z $path ]; then
     else
     	sudo cp -R edge $path/
     fi
-    if [ -d  $path/resources/firefox ]; then
+    if [ -d  $path/firefox ]; then
     	 echo
-    	 echo 'Current directory '.$path.'/resources/firefox content:'
-     	 ls  $path.'/resources/firefox'
+    	 echo Current directory $path/resources/firefox content:
+     	 ls  $path/firefox
      	 echo
        read -p 'Firefox driver is loacted are you need relocating again?[Y/N]:' yn
        case $yn in
@@ -50,9 +50,9 @@ if [ -z $path ]; then
     else
     	sudo cp -R firefox $path/
     fi
-    if [ -d  $path/resources/IE ]; then
+    if [ -d  $path/IE ]; then
     	 echo
-    	 echo 'Current directory '.$path.'/resources/Internet Explora content:'
+    	 echo Current directory $path/resources/Internet Explora content:
      	 ls  $path/IE
      	 echo
        read -p 'Internet Explora driver is loacted are you need relocating again?[Y/N]:' yn
@@ -66,7 +66,7 @@ if [ -z $path ]; then
     fi
     if [ -d  $path/opera ]; then
     	 echo
-    	 echo 'Current directory '.$path.'/resources/opera content:'
+    	 echo 'Current directory $path/resources/opera content:'
      	 ls  $path/opera
      	 echo
        read -p 'Opera driver is loacted are you need relocating again?[Y/N]:' yn
