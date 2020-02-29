@@ -150,7 +150,7 @@ else
        *)
        esac
     fi
-    sudo sed '29 c\ \t\t driver = new WebDrivers("Lnx","/opt/resources/").getDriver("CH",8.0,false);' Script.jki > AutomationJUnitTest.java
+    sudo sed '29 c\ \t\tdriver = new WebDrivers("Lnx","/opt/resources/").getDriver("CH",8.0,false);' Script.jki > AutomationJUnitTest.java
   else
     sudo mkdir /opt/resources
     sudo cp -R * /opt/resources/
