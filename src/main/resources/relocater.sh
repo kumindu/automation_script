@@ -6,11 +6,11 @@ echo  "@Author Kumindu Induranga Ranawaka             @Relase Date:29/02/18\n"
 echo  "####################################################################\n"
 echo
 read -p 'Enter web driver relocating path (Default:/opt/resources/):' path
-if[! -z $path]
+if[! -z "$path"]
 then
-	if[-d $path]
+	if[-d "$path"]
    then
-    if[-d $path/resources/chrome]
+    if[-d "$path/resources/chrome"]
      then
      	 ls $path/resources/chrome
        read -p 'Chrome driver is loacted are you need relocating again?' yn
@@ -20,7 +20,7 @@ then
        *)
        esac
     fi
-    if[-d  $path/resources/edge]
+    if[-d  "$path/resources/edge"]
      then
      	 ls  $path/resources/edge
        read -p 'Edge driver is loacted are you need relocating again?' yn
@@ -30,7 +30,7 @@ then
        *)
        esac
     fi
-    if[-d  $path/resources/firefox]
+    if[-d  "$path/resources/firefox"]
      then
      	 ls  $path/resources/firefox
        read -p 'Firefox driver is loacted are you need relocating again?' yn
@@ -40,7 +40,7 @@ then
        *)
        esac
     fi
-    if[-d  $path/resources/IE]
+    if[-d  "$path/resources/IE"]
      then
      	 ls  $path/resources/IE
        read -p 'Internet Explora driver is loacted are you need relocating again?' yn
@@ -51,7 +51,7 @@ then
        esac
        sudo rm -r  $path/resources/IE
     fi
-    if[-d  $path/resources/opera]
+    if[-d  "$path/resources/opera"]
      then
      	 ls  $path/resources/opera
        read -p 'Opera driver is loacted are you need relocating again?' yn
@@ -72,9 +72,9 @@ then
   fi
 fi
 else
-  if[-d /opt/resources/]
+  if[-d "/opt/resources/"]
    then
-    if[-d /opt/resources/chrome]
+    if[-d "/opt/resources/chrome"]
      then
      	 ls /opt/resources/chrome
        read -p 'Chrome driver is loacted are you need relocating again?' yn
@@ -84,7 +84,7 @@ else
        *)
        esac
     fi
-    if[-d /opt/resources/edge]
+    if[-d "/opt/resources/edge"]
      then
      	 ls /opt/resources/edge
        read -p 'Edge driver is loacted are you need relocating again?' yn
@@ -94,7 +94,7 @@ else
        *)
        esac
     fi
-    if[-d /opt/resources/firefox]
+    if[-d "/opt/resources/firefox"]
      then
      	 ls /opt/resources/firefox
        read -p 'Firefox driver is loacted are you need relocating again?' yn
@@ -104,7 +104,7 @@ else
        *)
        esac
     fi
-    if[-d /opt/resources/IE]
+    if[-d "/opt/resources/IE"]
      then
      	 ls /opt/resources/IE
        read -p 'Internet Explora driver is loacted are you need relocating again?' yn
@@ -115,7 +115,7 @@ else
        esac
        sudo rm -r /opt/resources/IE
     fi
-    if[-d /opt/resources/opera]
+    if[-d "/opt/resources/opera"]
      then
      	 ls /opt/resources/opera
        read -p 'Opera driver is loacted are you need relocating again?' yn
