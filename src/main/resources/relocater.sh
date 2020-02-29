@@ -6,10 +6,8 @@ echo  "@Author Kumindu Induranga Ranawaka             @Relase Date:29/02/18\n"
 echo  "####################################################################\n"
 echo
 read -p 'Enter web driver relocating path (Default:/opt/resources/)[ENTER]:' path
-if[-z "$path"];
-then
-	if[-d "$path"];
-   then
+if[-z "$path"]; then
+	if[-d "$path"]; then
     if[-d "$path/resources/chrome"];
      then
      	 ls $path/resources/chrome
@@ -77,7 +75,7 @@ else
      then
      	 ls /opt/resources/chrome
        read -p 'Chrome driver is loacted are you need relocating again?' yn
-       case $yn in 
+       case $yn in
           [Yy]* ) sudo rm -r /opt/resources/chrome ;sudo cp chrome /opt/resources/;;
           [Nn]* ) ;;
        *)
@@ -87,7 +85,7 @@ else
      then
      	 ls /opt/resources/edge
        read -p 'Edge driver is loacted are you need relocating again?' yn
-       case $yn in 
+       case $yn in
           [Yy]* ) sudo rm -r /opt/resources/edge ;sudo cp edge /opt/resources/;;
           [Nn]* ) ;;
        *)
@@ -97,7 +95,7 @@ else
      then
      	 ls /opt/resources/firefox
        read -p 'Firefox driver is loacted are you need relocating again?' yn
-       case $yn in 
+       case $yn in
           [Yy]* ) sudo rm -r /opt/resources/firefox ;sudo cp firefox /opt/resources/;;
           [Nn]* ) ;;
        *)
@@ -107,7 +105,7 @@ else
      then
      	 ls /opt/resources/IE
        read -p 'Internet Explora driver is loacted are you need relocating again?' yn
-       case $yn in 
+       case $yn in
           [Yy]* ) sudo rm -r /opt/resources/IE ;sudo cp IE /opt/resources/;;
           [Nn]* ) ;;
        *)
@@ -118,13 +116,13 @@ else
      then
      	 ls /opt/resources/opera
        read -p 'Opera driver is loacted are you need relocating again?' yn
-       case $yn in 
+       case $yn in
           [Yy]* ) sudo rm -r /opt/resources/opera ;sudo cp opera /opt/resources/;;
           [Nn]* ) ;;
        *)
        esac
     fi
-  else 
+  else
     sudo mkdir /opt/resources
     sudo cp {chrome,edge,firefox,IE,opera} /opt/resources/
     echo 'Web Driver files are relocated to /opt/resources/'
