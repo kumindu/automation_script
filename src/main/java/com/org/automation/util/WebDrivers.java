@@ -49,9 +49,9 @@ public class WebDrivers implements DriversController {
     //Define linux os selenium drivers
     private static String [] drivers_lnx=
             {
-                "IEDriverServer.exe","chromedriver.exe",
-                "msedgedriver.exe","operadriver.exe",
-                "geckodriver.exe"
+                "IEDriverServer","chromedriver",
+                "msedgedriver","operadriver",
+                "geckodriver"
             };
 
     //Define mac os selenium drivers

@@ -3,13 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7146852a-a16d-4e2a-9a11-1249b6a1f2d9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/org/automation/component/LoginComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/org/automation/component/LoginComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/org/automation/component/RegisterComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/org/automation/component/RegisterComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/org/automation/component/TokenComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/org/automation/component/TokenComponent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/org/automation/util/WebDrivers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/org/automation/util/WebDrivers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/org/automation/TestCaseTokenController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/org/automation/TestCaseTokenController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/org/automation/component/LoginComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/org/automation/component/LoginComponent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/org/automation/component/RegisterComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/org/automation/component/RegisterComponent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/org/automation/NewMain.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/org/automation/component/TokenComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/org/automation/component/TokenComponent.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/org/automation/util/WebDrivers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/org/automation/util/WebDrivers.class" afterDir="false" />
     </list>
@@ -61,7 +56,7 @@
       <recent name="com.org.automation" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NewMain">
+  <component name="RunManager" selected="JUnit.AutomationJUnitTest">
     <configuration name="NewMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.org.automation.NewMain" />
       <module name="automation" />
@@ -140,9 +135,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AutomationJUnitTest" />
         <item itemvalue="Application.NewMain" />
         <item itemvalue="JUnit.AutomationJUnitTest.CreateTokenCorrect" />
-        <item itemvalue="JUnit.AutomationJUnitTest" />
         <item itemvalue="JUnit.AutomationJUnitTest.CreateClientTokenCorrect" />
         <item itemvalue="JUnit.AutomationJUnitTest.CreateTokenWithOutName" />
       </list>
@@ -178,22 +173,22 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="460" y="105" key="FileChooserDialogImpl/0.0.1360.728@0.0.1360.728" timestamp="1581501325920" />
-    <state width="1317" height="236" key="GridCell.Tab.0.bottom" timestamp="1582955953509">
+    <state width="1317" height="570" key="GridCell.Tab.0.bottom" timestamp="1582958841816">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="236" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1582955953509" />
-    <state width="1317" height="236" key="GridCell.Tab.0.center" timestamp="1582955953509">
+    <state width="1317" height="570" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1582958841816" />
+    <state width="1317" height="570" key="GridCell.Tab.0.center" timestamp="1582958841816">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="236" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1582955953509" />
-    <state width="1317" height="236" key="GridCell.Tab.0.left" timestamp="1582955953508">
+    <state width="1317" height="570" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1582958841816" />
+    <state width="1317" height="570" key="GridCell.Tab.0.left" timestamp="1582958841816">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="236" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1582955953508" />
-    <state width="1317" height="236" key="GridCell.Tab.0.right" timestamp="1582955953509">
+    <state width="1317" height="570" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1582958841816" />
+    <state width="1317" height="570" key="GridCell.Tab.0.right" timestamp="1582958841816">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="236" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1582955953509" />
+    <state width="1317" height="570" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1582958841816" />
     <state width="1317" height="236" key="GridCell.Tab.1.bottom" timestamp="1582948190468">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
