@@ -78,7 +78,7 @@ if [ ! -z $path ]; then
     else
     	sudo cp -R opera $path/
     fi
-    sudo sed '29 c\ \t\tdriver = new WebDrivers("Lnx","'$path'").getDriver("CH",8.0,false);' Script.jki > AutomationJUnitTest.java
+    sudo sed '29 c\ \t\tdriver = new WebDrivers("Lnx","'$path'").getDriver("CH",8.0,false);' Script.jki > ../../../src/test/java/org/com/test/AutomationJUnitTest.java
   else
   	sudo cp -R * $path
     echo 'Web Driver files are relocated to:'.$path
@@ -86,7 +86,7 @@ if [ ! -z $path ]; then
     ls $path
     echo
     echo 'Example java code for application:'
-    sudo sed '29 c\ \t\tdriver = new WebDrivers("Lnx","'$path'").getDriver("CH",8.0,false);' Script.jki > AutomationJUnitTest.java
+    sudo sed '29 c\ \t\tdriver = new WebDrivers("Lnx","'$path'").getDriver("CH",8.0,false);' Script.jki > ../../../src/test/java/org/com/test/AutomationJUnitTest.java
    fi
 else
   if [ -d /opt/resources/ ]; then
@@ -150,7 +150,7 @@ else
        *)
        esac
     fi
-    sudo sed '29 c\ \t\tdriver = new WebDrivers("Lnx","/opt/resources/").getDriver("CH",8.0,false);' Script.jki > /../src/test/java/org/com/test/AutomationJUnitTest.java
+    sudo sed '29 c\ \t\tdriver = new WebDrivers("Lnx","/opt/resources/").getDriver("CH",8.0,false);' Script.jki > ../../../src/test/java/org/com/test/AutomationJUnitTest.java
   else
     sudo mkdir /opt/resources
     sudo cp -R * /opt/resources/
@@ -159,7 +159,7 @@ else
     ls $path
     echo
     echo 'Example java code for application:'
-    sudo sed '29 c\ \t\tdriver = new WebDrivers("Lnx","/opt/resources/").getDriver("CH",8.0,false);' Script.jki > /../src/test/java/org/com/test/AutomationJUnitTest.java
+    sudo sed '29 c\ \t\tdriver = new WebDrivers("Lnx","/opt/resources/").getDriver("CH",8.0,false);' Script.jki > ../../../src/test/java/org/com/test/AutomationJUnitTest.java
   fi
 fi
 echo
