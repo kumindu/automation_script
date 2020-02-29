@@ -5,7 +5,7 @@ echo  "####################################################################\n"
 echo  "@Author Kumindu Induranga Ranawaka             @Relase Date:29/02/18\n"
 echo  "####################################################################\n"
 echo
-read -p 'Enter web driver relocating path (Default:/opt/resources/)[ENTER]:' path
+read -n 'Enter web driver relocating path (Default:/opt/resources/)[ENTER]:' path
 if [ ! -z $path ]; then
 	if [ -e $path ]; then
     if [ -e $path/resources/chrome ]; then
