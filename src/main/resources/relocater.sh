@@ -5,8 +5,9 @@ echo  "####################################################################\n"
 echo  "@Author Kumindu Induranga Ranawaka             @Relase Date:29/02/18\n"
 echo  "####################################################################\n"
 echo
-read -p 'Enter web driver relocating path (Default:/opt/resources/):' path
-if[[! -z "$path"]];
+echo  'Enter web driver relocating path (Default:/opt/resources/)[ENTER]:'
+read path
+if[! -z "$path"]
 then
 	if[-d "$path"]
    then
