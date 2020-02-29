@@ -78,7 +78,7 @@ if [ ! -z $path ]; then
     else
     	sudo cp -R opera $path/
     fi
-    JavaTestCodeFile $path
+    sudo sed '29 c\ > driver = new WebDrivers("Lnx","$path").getDriver("CH",8.0,false);' AutomationJUnitTest.java
   else
   	sudo cp -R * $path
     echo 'Web Driver files are relocated to:'.$path
@@ -86,7 +86,7 @@ if [ ! -z $path ]; then
     ls $path
     echo
     echo 'Example java code for application:'
-    JavaTestCodeFile $path
+    sudo sed '29 c\ > driver = new WebDrivers("Lnx","$path").getDriver("CH",8.0,false);' AutomationJUnitTest.java
    fi
 else
   if [ -d /opt/resources/ ]; then
@@ -150,6 +150,7 @@ else
        *)
        esac
     fi
+    sudo sed '29 c\ > driver = new WebDrivers("Lnx","$path").getDriver("CH",8.0,false);' AutomationJUnitTest.java
   else
     sudo mkdir /opt/resources
     sudo cp -R * /opt/resources/
@@ -158,14 +159,11 @@ else
     ls $path
     echo
     echo 'Example java code for application:'
-    JavaTestCodeFile $path
+    sudo sed '29 c\ > driver = new WebDrivers("Lnx","$path").getDriver("CH",8.0,false);' AutomationJUnitTest.java
   fi
 fi
 echo
 echo  "####################################################################\n"
 echo  "                          version 1.0                               \n"
 echo  "####################################################################\n"
-JavaTestCodeFile(){
-	sudo sed '29 c\ > driver = new WebDrivers("Lnx","$path").getDriver("CH",8.0,false);' AutomationJUnitTest.java
-}
 exit 1
