@@ -166,6 +166,6 @@ echo  "####################################################################\n"
 echo  "                          version 1.0                               \n"
 echo  "####################################################################\n"
 JavaTestCodeFile(){
-	sed '29 c\ >'driver = new WebDrivers("Lnx","$path").getDriver("CH",8.0,false);' AutomationJUnitTest.java
-
+	sudo sed '29 c\ >'driver = new WebDrivers("Lnx","$path").getDriver("CH",8.0,false);' AutomationJUnitTest.java
+}
 exit 1
