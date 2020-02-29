@@ -21,7 +21,9 @@ import org.openqa.selenium.WebDriver;
  * @author Kumindu Induranga Ranawaka
  */
 public class AutomationJUnitTest {
+
 	private WebDriver driver;
+
 	@Before
 	public void setUp() {
 		driver = new WebDrivers().getDriver("CH",8.0,false);
@@ -34,25 +36,21 @@ public class AutomationJUnitTest {
 
 	//User Login Test Cases
 	@Test
-	public void loginMenuCheck() {
-		System.out.println(new TestCaseLoginController(driver).PageHeaderCheck());
-	}
-
-	@Test
 	public void EmptyUserName() {
 		System.out.println(new TestCaseLoginController(driver).EmptyUserName());
 	}
-
+	@Test
+	public void loginMenuCheck() {
+		System.out.println(new TestCaseLoginController(driver).PageHeaderCheck());
+	}
 	@Test
 	public void InCorrectUserName() {
 		System.out.println(new TestCaseLoginController(driver).InCorrectUserName());
 	}
-
 	@Test
 	public void InCorrectPassword() {
 		System.out.println(new TestCaseLoginController(driver).InCorrectPassword());
 	}
-
 	@Test
 	public void LoginCorrectUserName() {
 		System.out.println(new TestCaseLoginController(driver).CorrectUserName());
@@ -60,83 +58,65 @@ public class AutomationJUnitTest {
 
 	//User Registation Test Cases
 	@Test
-	public void ConfirmPasswordNotMatchedAndEmailAlreadyTaken() {
-		System.out.println(new TestCaseRegisterController(driver).ConfirmPasswordNotMatchedAndEmailAlreadyTaken());
-	}
-
-	@Test
 	public void ConfirmPasswordNotMatched() {
 		System.out.println(new TestCaseRegisterController(driver).ConfirmPasswordNotMatched());
 	}
-
 	@Test
-	public void PasswordValidation() {
-		System.out.println(new TestCaseRegisterController(driver).PasswordValidation());
+	public void ConfirmPasswordNotMatchedAndEmailAlreadyTaken() {
+		System.out.println(new TestCaseRegisterController(driver).ConfirmPasswordNotMatchedAndEmailAlreadyTaken());
 	}
-
-	@Test
-	public void EmailAlreadyTaken() {
-		System.out.println(new TestCaseRegisterController(driver).EmailAlreadyTaken());
-	}
-
-	@Test
-	public void EmptyPassword() {
-		System.out.println(new TestCaseRegisterController(driver).EmptyPassword());
-	}
-
-	@Test
-	public void EmptyEmail() {
-		System.out.println(new TestCaseRegisterController(driver).EmptyEmail());
-	}
-
-	@Test
-	public void EmptyName() {
-		System.out.println(new TestCaseRegisterController(driver).EmptyName());
-	}
-
 	@Test
 	public void isEmail() {
 		System.out.println(new TestCaseRegisterController(driver).isEmail());
 	}
-
+	@Test
+	public void EmptyName() {
+		System.out.println(new TestCaseRegisterController(driver).EmptyName());
+	}
+	@Test
+	public void EmptyEmail() {
+		System.out.println(new TestCaseRegisterController(driver).EmptyEmail());
+	}
+	@Test
+	public void EmptyPassword() {
+		System.out.println(new TestCaseRegisterController(driver).EmptyPassword());
+	}
+	@Test
+	public void EmailAlreadyTaken() {
+		System.out.println(new TestCaseRegisterController(driver).EmailAlreadyTaken());
+	}
+	@Test
+	public void PasswordValidation() {
+		System.out.println(new TestCaseRegisterController(driver).PasswordValidation());
+	}
 	@Test
 	public void RegisterCorrectUserName() {
 		System.out.println(new TestCaseRegisterController(driver).CorrectUserName());
 	}
 
-
 	//User Create Token
-
-	@Test
-	public void CreateClientTokenCorrect() {
-		assert(new TestCaseTokenController(driver).CreateClientTokenCorrect());
-	}
-
-	@Test
-	public void CreateClientTokenWithOutName(){
-		System.out.println(new TestCaseTokenController(driver).CreateClientTokenWithOutName());
-	}
-
-
-	@Test
-	public void CreateClientTokenWithOutRedirect() {
-		System.out.println(new TestCaseTokenController(driver).CreateClientTokenWithOutRedirect());
-	}
-
-	@Test
-	public void CreateClientTokenWithOutNameAndRedirect() {
-		System.out.println(new TestCaseTokenController(driver).CreateClientTokenWithOutNameAndRedirect());
-	}
-
-
 	@Test
 	public void CreateTokenWithOutName() {
 		System.out.println(new TestCaseTokenController(driver).CreateTokenWithOutName());
 	}
-
+	@Test
+	public void CreateClientTokenWithOutName(){
+		System.out.println(new TestCaseTokenController(driver).CreateClientTokenWithOutName());
+	}
+	@Test
+	public void CreateClientTokenWithOutRedirect() {
+		System.out.println(new TestCaseTokenController(driver).CreateClientTokenWithOutRedirect());
+	}
+	@Test
+	public void CreateClientTokenWithOutNameAndRedirect() {
+		System.out.println(new TestCaseTokenController(driver).CreateClientTokenWithOutNameAndRedirect());
+	}
 	@Test
 	public void CreateTokenCorrect() {
 		assert (new TestCaseTokenController(driver).CreateTokenCorrect());
 	}
-
+	@Test
+	public void CreateClientTokenCorrect() {
+		assert(new TestCaseTokenController(driver).CreateClientTokenCorrect());
+	}
 }

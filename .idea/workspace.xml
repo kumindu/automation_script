@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="7146852a-a16d-4e2a-9a11-1249b6a1f2d9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/org/automation/util/DriversController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/org/automation/util/DriversController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/org/automation/util/WebDrivers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/org/automation/util/WebDrivers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/org/automation/NewMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/org/automation/component/TokenComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/org/automation/component/TokenComponent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/com/test/AutomationJUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/com/test/AutomationJUnitTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/org/automation/util/WebDrivers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/org/automation/util/WebDrivers.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -157,6 +157,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="485" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1582965657342">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="485" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1360.728@0.0.1360.728" timestamp="1582965657342" />
     <state x="476" y="223" width="416" height="290" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1581510240206">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
@@ -173,22 +177,22 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="460" y="105" key="FileChooserDialogImpl/0.0.1360.728@0.0.1360.728" timestamp="1581501325920" />
-    <state width="1317" height="570" key="GridCell.Tab.0.bottom" timestamp="1582958841816">
+    <state width="1317" height="570" key="GridCell.Tab.0.bottom" timestamp="1582966518971">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="570" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1582958841816" />
-    <state width="1317" height="570" key="GridCell.Tab.0.center" timestamp="1582958841816">
+    <state width="1317" height="570" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1582966518971" />
+    <state width="1317" height="570" key="GridCell.Tab.0.center" timestamp="1582966518971">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="570" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1582958841816" />
-    <state width="1317" height="570" key="GridCell.Tab.0.left" timestamp="1582958841816">
+    <state width="1317" height="570" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1582966518971" />
+    <state width="1317" height="570" key="GridCell.Tab.0.left" timestamp="1582966518971">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="570" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1582958841816" />
-    <state width="1317" height="570" key="GridCell.Tab.0.right" timestamp="1582958841816">
+    <state width="1317" height="570" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1582966518971" />
+    <state width="1317" height="570" key="GridCell.Tab.0.right" timestamp="1582966518971">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="570" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1582958841816" />
+    <state width="1317" height="570" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1582966518971" />
     <state width="1317" height="236" key="GridCell.Tab.1.bottom" timestamp="1582948190468">
       <screen x="0" y="0" width="1360" height="728" />
     </state>

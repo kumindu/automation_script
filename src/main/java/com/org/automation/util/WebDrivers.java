@@ -27,10 +27,30 @@ public class WebDrivers implements DriversController {
 
     //Get current system working operating systems
     private static String OS = System.getProperty("os.name").toLowerCase();
-    //Define project resources folder location for mac os
-    private static String mac_base="src\\main\\resources\\";
-    //Define project resources folder location for Other os
-    private static String win_base="src/main/resources/";
+    private String mac_base;
+    private String win_base;
+
+	public WebDrivers(){
+		//Define project resources folder location for mac os
+		this.mac_base="src\\main\\resources\\";
+		//Define project resources folder location for Other os
+		this.win_base="src/main/resources/";
+	};
+
+	//Linux base driver path override
+	public WebDrivers(String os,String path){
+		switch (os) {
+			case "Lnx":
+				//Linux base driver path override
+				this.win_base = path;
+			case "Win":
+				//Win base driver path override
+				this.win_base = path;
+			case "Mac":
+				//Mac base driver path override
+				this.mac_base = path;
+		}
+	};
 
     //Define browsers
     private static String [] browser=
