@@ -47,7 +47,7 @@ public class LoginComponent {
     }
 
     public String Navigation() {
-        driver.get("http://127.0.0.1:8000/login");
+        driver.get("http://54.219.186.201/login");
         return driver.getCurrentUrl();
     }
 

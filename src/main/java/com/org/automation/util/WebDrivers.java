@@ -139,10 +139,10 @@ public class WebDrivers implements DriversController {
          return win_base +bw+"/"+bw+"-"+ver+"/win_"+bit+"/"+drivers_win[i];
       else if (OS.contains("mac"))
          //If current is mac os return this driver path
-         return mac_base +bw+"/"+bw+"-"+ver+"/lnx_"+bit+"/"+drivers_mac[i];
+         return mac_base +bw+"/"+bw+"-"+ver+"/mac_"+bit+"/"+drivers_mac[i];
       else
          //If current is linux base os return this driver path
-         return  win_base +bw+"/"+bw+"-"+ver+"/mac_"+bit+"/"+drivers_lnx[i];
+         return  win_base +bw+"/"+bw+"-"+ver+"/lnx_"+bit+"/"+drivers_lnx[i];
     }
 
 }

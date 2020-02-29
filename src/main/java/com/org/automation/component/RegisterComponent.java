@@ -49,7 +49,7 @@ public class RegisterComponent {
     }
 
     public String Navigation() {
-        driver.get("http://127.0.0.1:8000/register");
+        driver.get("http://54.219.186.201/register");
         return driver.getCurrentUrl();
     }
 

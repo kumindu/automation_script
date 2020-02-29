@@ -37,7 +37,7 @@ public class TokenComponent {
 
 
     public String Navigation() {
-        driver.get("http://127.0.0.1:8000/home");
+        driver.get("http://54.219.186.201/home");
         return driver.getCurrentUrl();
     }
 
