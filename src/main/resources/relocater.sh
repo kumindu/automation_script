@@ -128,7 +128,7 @@ else
        *)
        esac
     fi
-    if [ -d "/opt/resources/opera"]; then
+    if [ -d /opt/resources/opera ]; then
      	 echo
     	 echo 'Current directory /opt/resources/opera content:'
      	 ls /opt/resources/opera
