@@ -162,7 +162,7 @@ public class WebDrivers implements DriversController {
          return mac_base +bw+"/"+bw+"-"+ver+"/mac_"+bit+"/"+drivers_mac[i];
       else
          //If current is linux base os return this driver path
-         return  win_base +bw+"/"+bw+"-"+ver+"/lnx_"+bit+"/"+drivers_lnx[i];
+         return win_base +bw+"/"+bw+"-"+ver+"/lnx_"+bit+"/"+drivers_lnx[i];
     }
 
 }
