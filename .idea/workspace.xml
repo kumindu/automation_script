@@ -1,9 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7146852a-a16d-4e2a-9a11-1249b6a1f2d9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/chrome/chrome-85.0/win_x32/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/relocater.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/relocater.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/automation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/org/automation/component/LoginComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/org/automation/component/LoginComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/org/automation/component/RegisterComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/org/automation/component/RegisterComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/org/automation/component/TokenComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/org/automation/component/TokenComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/com/test/AutomationJUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/com/test/AutomationJUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/automation.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/org/automation/TestCaseLoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/org/automation/TestCaseLoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/org/automation/TestCaseRegisterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/org/automation/TestCaseRegisterController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/org/automation/TestCaseTokenController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/org/automation/TestCaseTokenController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/org/automation/component/LoginComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/org/automation/component/LoginComponent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/org/automation/component/RegisterComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/org/automation/component/RegisterComponent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/org/automation/component/TokenComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/org/automation/component/TokenComponent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/org/automation/util/DriversController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/org/automation/util/DriversController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/org/automation/util/WebDrivers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/org/automation/util/WebDrivers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/automation.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/com/test/AutomationJUnitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/com/test/AutomationJUnitTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,28 +45,27 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="1XhbNW0LEVpyXyy2bk9vZ1t8ls5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/org/automation" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\OfficeProjectFolder\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\OfficeProjectFolder\src\main\resources\chrome" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.org.automation.driverUtil" />
     </key>
@@ -140,6 +160,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -153,74 +174,16 @@
     </task>
     <servers />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="485" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1582965657342">
-      <screen x="0" y="0" width="1360" height="728" />
-    </state>
-    <state x="485" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1360.728@0.0.1360.728" timestamp="1582965657342" />
-    <state x="476" y="223" width="416" height="290" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1581510240206">
-      <screen x="0" y="0" width="1360" height="728" />
-    </state>
-    <state x="476" y="223" width="416" height="290" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1360.728@0.0.1360.728" timestamp="1581510240206" />
-    <state x="410" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581501606614">
-      <screen x="0" y="0" width="1360" height="728" />
-    </state>
-    <state x="410" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1360.728@0.0.1360.728" timestamp="1581501606614" />
-    <state x="438" y="226" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1581590275123">
-      <screen x="0" y="0" width="1360" height="728" />
-    </state>
-    <state x="438" y="226" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1360.728@0.0.1360.728" timestamp="1581590275123" />
-    <state x="460" y="105" key="FileChooserDialogImpl" timestamp="1581501325920">
-      <screen x="0" y="0" width="1360" height="728" />
-    </state>
-    <state x="460" y="105" key="FileChooserDialogImpl/0.0.1360.728@0.0.1360.728" timestamp="1581501325920" />
-    <state width="1317" height="570" key="GridCell.Tab.0.bottom" timestamp="1582966518971">
-      <screen x="0" y="0" width="1360" height="728" />
-    </state>
-    <state width="1317" height="570" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1582966518971" />
-    <state width="1317" height="570" key="GridCell.Tab.0.center" timestamp="1582966518971">
-      <screen x="0" y="0" width="1360" height="728" />
-    </state>
-    <state width="1317" height="570" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1582966518971" />
-    <state width="1317" height="570" key="GridCell.Tab.0.left" timestamp="1582966518971">
-      <screen x="0" y="0" width="1360" height="728" />
-    </state>
-    <state width="1317" height="570" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1582966518971" />
-    <state width="1317" height="570" key="GridCell.Tab.0.right" timestamp="1582966518971">
-      <screen x="0" y="0" width="1360" height="728" />
-    </state>
-    <state width="1317" height="570" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1582966518971" />
-    <state width="1317" height="236" key="GridCell.Tab.1.bottom" timestamp="1582948190468">
-      <screen x="0" y="0" width="1360" height="728" />
-    </state>
-    <state width="1317" height="236" key="GridCell.Tab.1.bottom/0.0.1360.728@0.0.1360.728" timestamp="1582948190468" />
-    <state width="1317" height="236" key="GridCell.Tab.1.center" timestamp="1582948190468">
-      <screen x="0" y="0" width="1360" height="728" />
-    </state>
-    <state width="1317" height="236" key="GridCell.Tab.1.center/0.0.1360.728@0.0.1360.728" timestamp="1582948190468" />
-    <state width="1317" height="236" key="GridCell.Tab.1.left" timestamp="1582948190468">
-      <screen x="0" y="0" width="1360" height="728" />
-    </state>
-    <state width="1317" height="236" key="GridCell.Tab.1.left/0.0.1360.728@0.0.1360.728" timestamp="1582948190468" />
-    <state width="1317" height="236" key="GridCell.Tab.1.right" timestamp="1582948190468">
-      <screen x="0" y="0" width="1360" height="728" />
-    </state>
-    <state width="1317" height="236" key="GridCell.Tab.1.right/0.0.1360.728@0.0.1360.728" timestamp="1582948190468" />
-    <state x="500" y="146" key="chooseDestDirectoryDialog" timestamp="1581510239934">
-      <screen x="0" y="0" width="1360" height="728" />
-    </state>
-    <state x="500" y="146" key="chooseDestDirectoryDialog/0.0.1360.728@0.0.1360.728" timestamp="1581510239934" />
-    <state x="381" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1582943109709">
-      <screen x="0" y="0" width="1360" height="728" />
-    </state>
-    <state x="381" y="188" key="com.intellij.ide.util.TipDialog/0.0.1360.728@0.0.1360.728" timestamp="1582943109709" />
-    <state x="336" y="162" key="run.anything.popup" timestamp="1581510929724">
-      <screen x="0" y="0" width="1360" height="728" />
-    </state>
-    <state x="336" y="162" key="run.anything.popup/0.0.1360.728@0.0.1360.728" timestamp="1581510929724" />
-    <state x="343" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1582841207204">
-      <screen x="0" y="0" width="1360" height="728" />
-    </state>
-    <state x="343" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1360.728@0.0.1360.728" timestamp="1582841207204" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

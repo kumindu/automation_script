@@ -36,7 +36,7 @@ public class TokenComponent {
 
 
     public String Navigation() {
-        driver.get("https://automation.openwit.club/home");
+        driver.get("http://127.0.0.1:8000/home");
         return driver.getCurrentUrl();
     }
 

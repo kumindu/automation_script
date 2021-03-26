@@ -49,7 +49,7 @@ public class RegisterComponent {
     }
 
     public String Navigation() {
-        driver.get("https://automation.openwit.club/register");
+        driver.get("http://127.0.0.1:8000/register");
         return driver.getCurrentUrl();
     }
 

@@ -47,7 +47,7 @@ public class LoginComponent {
     }
 
     public String Navigation() {
-        driver.get("https://automation.openwit.club/login");
+        driver.get("http://127.0.0.1:8000/login");
         return driver.getCurrentUrl();
     }
 

@@ -8,7 +8,6 @@ package org.com.test;
 
 import com.org.automation.TestCaseLoginController;
 import com.org.automation.TestCaseRegisterController;
-import com.org.automation.TestCaseTokenController;
 import com.org.automation.util.WebDrivers;
 import org.junit.After;
 import org.junit.Before;
@@ -26,7 +25,7 @@ public class AutomationJUnitTest {
 
 	@Before
 	public void setUp() {
-		driver = new WebDrivers().getDriver("CH",8.0,false);
+		driver = new WebDrivers().getDriver("CH",85.0,false);
 		driver.manage().window().maximize();
 	}
 	@After
@@ -94,29 +93,29 @@ public class AutomationJUnitTest {
 		System.out.println(new TestCaseRegisterController(driver).CorrectUserName());
 	}
 
-	//User Create Token
-	@Test
-	public void CreateTokenWithOutName() {
-		System.out.println(new TestCaseTokenController(driver).CreateTokenWithOutName());
-	}
-	@Test
-	public void CreateClientTokenWithOutName(){
-		System.out.println(new TestCaseTokenController(driver).CreateClientTokenWithOutName());
-	}
-	@Test
-	public void CreateClientTokenWithOutRedirect() {
-		System.out.println(new TestCaseTokenController(driver).CreateClientTokenWithOutRedirect());
-	}
-	@Test
-	public void CreateClientTokenWithOutNameAndRedirect() {
-		System.out.println(new TestCaseTokenController(driver).CreateClientTokenWithOutNameAndRedirect());
-	}
-	@Test
-	public void CreateTokenCorrect() {
-		assert (new TestCaseTokenController(driver).CreateTokenCorrect());
-	}
-	@Test
-	public void CreateClientTokenCorrect() {
-		assert(new TestCaseTokenController(driver).CreateClientTokenCorrect());
-	}
+//	//User Create Token
+//	@Test
+//	public void CreateTokenWithOutName() {
+//		System.out.println(new TestCaseTokenController(driver).CreateTokenWithOutName());
+//	}
+//	@Test
+//	public void CreateClientTokenWithOutName(){
+//		System.out.println(new TestCaseTokenController(driver).CreateClientTokenWithOutName());
+//	}
+//	@Test
+//	public void CreateClientTokenWithOutRedirect() {
+//		System.out.println(new TestCaseTokenController(driver).CreateClientTokenWithOutRedirect());
+//	}
+//	@Test
+//	public void CreateClientTokenWithOutNameAndRedirect() {
+//		System.out.println(new TestCaseTokenController(driver).CreateClientTokenWithOutNameAndRedirect());
+//	}
+//	@Test
+//	public void CreateTokenCorrect() {
+//		assert (new TestCaseTokenController(driver).CreateTokenCorrect());
+//	}
+//	@Test
+//	public void CreateClientTokenCorrect() {
+//		assert(new TestCaseTokenController(driver).CreateClientTokenCorrect());
+//	}
 }
